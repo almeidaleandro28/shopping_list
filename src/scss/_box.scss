@@ -1,0 +1,27 @@
+@import "./variables";
+
+.box {
+  border: 1px solid $c-black;
+  display: $c-white;
+  width: 50%;
+}
+
+.box_title {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1em 0;
+}
+
+.box_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box_form_input {
+  width: 60%;
+}
+
+.box_form_btn {
+
+}
