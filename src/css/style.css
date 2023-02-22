@@ -59,8 +59,8 @@ table {
 }
 
 .box {
+  background-color: #ffffff;
   border: 1px solid #000000;
-  display: #ffffff;
   width: 50%;
 }
 
