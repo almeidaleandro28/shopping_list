@@ -25,3 +25,21 @@
 .box_form_btn {
 
 }
+
+// box_list
+.box_list {
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.box_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  width: 60%;
+  margin: 0 auto;
+}
