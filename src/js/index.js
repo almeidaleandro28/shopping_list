@@ -7,8 +7,12 @@ const createBtnBought = ( ) => {
 	return btn;
 }
 
-const createBtnFinished =  () => {
+const createBtndelete=  () => {
+	const btn = document.createElement("button");
+	btn.innerHTML = "delete";
+	btn.classList.add("btn");
 
+	return btn;
 }
 
 
@@ -21,7 +25,9 @@ const createProduct = ( ) => {
 
 	li.innerHTML = `<p>${product}</p>`;
 	li.classList.add("box_item");
+
 	li.append( createBtnBought());
+	li.append( createBtndelete());
 
 	console.log( createBtnBought());
 	return list.appendChild( li );
