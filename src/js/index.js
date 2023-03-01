@@ -29,7 +29,7 @@ const createProduct = ( ) => {
 	li.append( createBtnBought());
 	li.append( createBtndelete());
 
-	console.log( createBtnBought());
+	
 	return list.appendChild( li );
 }
 

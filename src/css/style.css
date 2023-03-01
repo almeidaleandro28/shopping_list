@@ -84,6 +84,7 @@ table {
   display: flex;
   flex-direction: column;
   margin-top: 1em;
+  align-items: center;
 }
 
 .box_item {
@@ -107,6 +108,7 @@ table {
 
 .input {
   width: 100%;
+  padding: 5px 10px;
 }
 
 .btn {
