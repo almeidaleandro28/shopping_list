@@ -28,18 +28,21 @@
 
 // box_list
 .box_list {
-  display: flex;
-  flex-direction: column;
-  margin-top: 1em;
-  align-items: center;
+  margin: 0.5rem 0;
+  li {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+  }
 }
 
-.box_item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 0;
-  width: 60%;
-  margin: 0 auto;
+.buttons {
+  flex: 1;
 }
+
+.product {
+  flex: 2;
+}
+
+

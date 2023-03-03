@@ -20,17 +20,21 @@ const createProduct = ( ) => {
 	const product = document.querySelector(".input").value;
  	const container = document.querySelector(".box");
  	const list = document.querySelector(".box_list");
+	const containerButton = document.createElement("div");
 
 	const li = document.createElement("li");
 
-	li.innerHTML = `<p>${product}</p>`;
-	li.classList.add("box_item");
+	containerButton.classList.add("buttons")
+	containerButton.append( createBtnBought())
+	containerButton.append( createBtndelete())
 
-	li.append( createBtnBought());
-	li.append( createBtndelete());
+	li.innerHTML = `<div class="product">${product}</div>`;
+	li.append( containerButton)
+
 
 	
-	return list.appendChild( li );
+	return list.append( li );
+
 }
 
 
