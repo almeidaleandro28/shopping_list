@@ -2,6 +2,15 @@ import { createBtnBought, createBtndelete } from "./buttons.js"
 
 const btAdd = document.querySelector(".btn");
 
+const broughtEnd = () => {
+	return console.log( 'hello')
+}
+
+const deleteTr = () => {
+	return console.log("deleted")
+}
+
+
 
 const createProduct = ( ) => {
 	const product = document.querySelector(".input").value;
@@ -12,14 +21,12 @@ const createProduct = ( ) => {
 	const li = document.createElement("li");
 
 	containerButton.classList.add("buttons")
-	containerButton.append( createBtnBought())
-	containerButton.append( createBtndelete())
+	containerButton.append( createBtnBought( broughtEnd ) )
+	containerButton.append( createBtndelete( deleteTr))
 
 	li.innerHTML = `<div class="product">${product}</div>`;
 	li.append( containerButton)
 
-
-	
 	return list.append( li );
 
 }
