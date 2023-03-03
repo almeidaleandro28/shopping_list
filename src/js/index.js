@@ -1,19 +1,6 @@
+import { createBtnBought, createBtndelete } from "./buttons.js"
+
 const btAdd = document.querySelector(".btn");
-
-const createBtnBought = ( ) => {
-	const btn = document.createElement("button");
-	btn.innerHTML = "brought";
-	btn.classList.add("btn")
-	return btn;
-}
-
-const createBtndelete=  () => {
-	const btn = document.createElement("button");
-	btn.innerHTML = "delete";
-	btn.classList.add("btn");
-
-	return btn;
-}
 
 
 const createProduct = ( ) => {
