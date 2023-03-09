@@ -98,6 +98,10 @@ table {
   flex: 2;
 }
 
+.line {
+  background-color: #808080;
+}
+
 .main {
   background-color: hsl(212, 33%, 89%);
   height: 100%;

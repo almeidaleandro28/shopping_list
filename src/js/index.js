@@ -1,16 +1,7 @@
 import { createBtnBought, createBtndelete } from "./buttons.js"
+import { broughtEnd, deleteTr } from "./action.js";
 
 const btAdd = document.querySelector(".btn");
-
-const broughtEnd = () => {
-	return console.log( 'hello')
-}
-
-const deleteTr = () => {
-	return console.log("deleted")
-}
-
-
 
 const createProduct = ( ) => {
 	const product = document.querySelector(".input").value;
